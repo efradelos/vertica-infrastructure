@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "kavala13-test"
-    key    = "terraform/state/vertica-cloud"
+    bucket = "kavala13-terraform"
+    key    = "vertica-cloud"
     region = "us-east-1"
   }
 
